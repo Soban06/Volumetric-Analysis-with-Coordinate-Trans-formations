@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Volumetric Analysis AI</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    input, button { padding: 10px; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Volumetric Analysis AI</h1>
+  <form method="POST">
+    <label>Enter your question:</label><br>
+    <input type="text" name="question" style="width: 70%;" required>
+    <button type="submit">Predict</button>
+  </form>
+
+  {% if prediction %}
+    <h3>📌 Best Coordinate System: {{ prediction }}</h3>
+    <h4>🔢 Confidence Scores:</h4>
+    <ul>
+      {% for label, score in confidence_scores.items() %}
+        <li>{{ label }}: {{ '%.4f' % score }}</li>
+      {% endfor %}
+    </ul>
+    <h4>📐 Estimated Volume: WIP</h4>
+  {% endif %}
+</body>
+</html>

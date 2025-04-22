@@ -1,0 +1,1099 @@
+[
+  {
+    "question_text": "Find the volume of the region bounded by the sphere x^2 + y^2 + z^2 = 16 and above the xy-plane.",
+    "equations": [
+      "x^2 + y^2 + z^2 = 16",
+      "z >= 0"
+    ],
+    "variables": ["x", "y", "z"],
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "rho": { "lower": "0", "upper": "2" },
+        "phi": { "lower": "0", "upper": "pi/2" },
+        "theta": { "lower": "0", "upper": "2*pi" }
+      },
+      "integrand": "rho^2 * sin(phi)"
+    },
+    "volume": 67.0
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the paraboloid z = x^2 + y^2 and the plane z = 9.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "3"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "r^2",
+          "upper": "9"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~251.9"
+  },
+  {
+    "question_text": "Find the volume of the region enclosed by the sphere x^2 + y^2 + z^2 = 16.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "rho": {
+          "lower": "0",
+          "upper": "4"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "phi": {
+          "lower": "0",
+          "upper": "pi"
+        }
+      },
+      "integrand": "rho^2 * sin(phi)"
+    },
+    "volume": "Numerical estimate: ~264.1"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the plane z = 0 and the cone z = sqrt(x^2 + y^2).",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "4"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "r"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~132.0"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the paraboloid z = 4 - x^2 - y^2 and the plane z = 0.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "2"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "4 - r^2"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~25.1"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  6.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "2"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "2"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~24.9"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  7.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "3"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "3"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~84.0"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  8.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "4"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "4"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~199.1"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  9.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "5"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "5"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~388.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  10.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "6"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "6"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~671.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  11.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "2"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "2"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~24.9"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  12.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "3"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "3"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~84.0"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  13.",
+
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "4"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "4"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~199.1"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  14.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "5"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "5"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~388.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  15.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "6"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "6"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~671.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  16.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "2"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "2"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~24.9"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  17.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "3"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "3"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~84.0"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  18.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "4"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "4"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~199.1"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  19.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "5"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "5"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~388.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  20.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "6"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "6"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~671.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  21.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "2"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "2"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~24.9"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  22.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "3"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "3"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~84.0"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  23.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "4"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "4"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~199.1"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  24.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "5"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "5"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~388.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  25.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "6"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "6"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~671.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  26.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "2"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "2"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~24.9"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  27.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "3"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "3"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~84.0"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  28.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "4"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "4"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~199.1"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  29.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "5"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "5"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~388.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  30.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "6"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "6"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~671.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  31.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "2"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "2"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~24.9"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  32.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "3"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "3"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~84.0"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  33.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "4"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "4"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~199.1"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  34.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "5"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "5"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~388.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  35.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "6"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "6"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~671.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  36.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "2"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "2"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~24.9"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  37.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "3"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "3"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~84.0"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  38.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "4"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "4"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~199.1"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  39.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "5"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "5"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~388.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  40.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "6"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "6"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~671.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  41.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "2"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "2"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~24.9"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  42.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "3"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "3"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~84.0"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  43.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "4"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "4"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~199.1"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  44.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "5"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "5"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~388.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  45.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "6"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "6"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~671.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  46.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "2"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "2"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~24.9"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  47.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "3"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "3"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~84.0"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  48.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "4"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "4"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~199.1"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  49.",
+    "coordinate_system": "cylindrical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "5"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "5"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~388.8"
+  },
+  {
+    "question_text": "Find the volume of the solid bounded by the surface and the plane z = 0.  50.",
+    "coordinate_system": "spherical",
+    "integral_setup": {
+      "bounds": {
+        "r": {
+          "lower": "0",
+          "upper": "6"
+        },
+        "theta": {
+          "lower": "0",
+          "upper": "2*pi"
+        },
+        "z": {
+          "lower": "0",
+          "upper": "6"
+        }
+      },
+      "integrand": "r"
+    },
+    "volume": "Numerical estimate: ~671.8"
+  }
+]
